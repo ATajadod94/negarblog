@@ -1,0 +1,34 @@
+name: refresh-google-scholar
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'        # every Monday 04:00 UTC
+  workflow_dispatch:           # allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # commit the YAML back
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install scholarly==1.7.11 pyyaml
+
+      - name: Run scraper
+        run: |
+          python scripts/gs_to_yaml.py "MsYk4V0AAAAJ"   # 👈 replace with Negar’s Scholar user-id
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "scholar-bot"
+          git config user.email "actions@github.com"
+          git add _data/scholar.yml
+          git commit -m "chore(data): update publications from Google Scholar" || echo "No changes"
+          git push
