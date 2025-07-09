@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: pip install scholarly==1.7.11 pyyaml
+        run: pip install scholarly==1.7.11 pyyaml fake-useragent
 
       - name: Run scraper
         run: |
