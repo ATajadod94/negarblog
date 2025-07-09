@@ -3,10 +3,10 @@ name: refresh-google-scholar
 on:
   schedule:
     - cron: '0 4 * * 1'      # every Monday 04:00 UTC
-  workflow_dispatch:         # manual trigger from Actions tab
+  workflow_dispatch:
 
 permissions:
-  contents: write            # allow committing the YAML
+  contents: write
 
 jobs:
   scrape:
@@ -26,14 +26,14 @@ jobs:
 
       - name: Run scraper
         env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}   # 👈 your secret
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}    # 👈 must exist in repo secrets
         run: |
-          python scripts/gs_to_yaml.py "R_1o4RIAAAAJ"   # 👈 Negar’s Scholar ID
+          python scripts/gs_to_yaml.py "R_1o4RIAAAAJ"
 
       - name: Commit & push updated data
         run: |
           git config user.name  "scholar-bot"
           git config user.email "actions@github.com"
           git add _data/scholar.yml
-          git commit -m "chore(data): refresh publications" || echo "No changes to commit"
+          git commit -m "chore(data): refresh publications" || echo "No changes"
           git push
