@@ -1,31 +1,21 @@
 #!/usr/bin/env python3
 """
-Fetch a Google Scholar profile via SerpAPI and dump publications to _data/scholar.yml
+Fetch Negar's Google Scholar publications through SerpAPI and write _data/scholar.yml
 """
 
 import os, sys, yaml, datetime, pathlib, logging
 from scholarly import scholarly, ProxyGenerator
-# fake-useragent now optional; comment out if not installed
-try:
-    from fake_useragent import UserAgent
-    RANDOM_UA = True
-except ImportError:
-    RANDOM_UA = False
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 def init_gateway():
-    """Prefer SerpAPI gateway; fallback to direct."""
     pg = ProxyGenerator()
     api_key = os.getenv("SERPAPI_KEY")
     if api_key and pg.SerpApiGateway(api_key):
         scholarly.use_proxy(pg)
         logging.info("Using SerpAPI gateway.")
     else:
-        logging.warning("No SERPAPI_KEY provided or gateway init failed – fetching directly.")
-    # Optional: random UA (works only if fake_useragent present)
-    if RANDOM_UA:
-        scholarly._session.headers.update({"User-Agent": UserAgent().random})
+        logging.warning("SERPAPI_KEY missing or invalid – fetching directly (may be blocked).")
     scholarly.set_timeout(10)
 
 def fetch_pubs(user_id: str, max_pubs: int = 100):
@@ -55,15 +45,16 @@ def main(user_id: str):
     pubs = fetch_pubs(user_id)
     if not pubs:
         logging.error("No publications fetched – exiting without update")
-        sys.exit(0)
+        sys.exit(0)          # graceful exit so workflow doesn't fail
 
-    data = {
-        "updated": datetime.date.today().isoformat(),
-        "papers":  pubs,
-    }
     pathlib.Path("_data").mkdir(exist_ok=True)
     with open("_data/scholar.yml", "w", encoding="utf-8") as fh:
-        yaml.dump(data, fh, allow_unicode=True, sort_keys=False)
+        yaml.dump(
+            {"updated": datetime.date.today().isoformat(), "papers": pubs},
+            fh,
+            allow_unicode=True,
+            sort_keys=False,
+        )
     logging.info("Wrote %d publications to _data/scholar.yml", len(pubs))
 
 if __name__ == "__main__":
