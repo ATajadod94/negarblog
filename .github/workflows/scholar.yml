@@ -19,11 +19,13 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: pip install scholarly==1.7.11 pyyaml fake-useragent
+        run: |
+          # scholarly pulls in the newest httpx; we pin an older one it still supports
+          pip install "httpx<0.27" scholarly==1.7.11 pyyaml fake-useragent
 
       - name: Run scraper
         run: |
-          python scripts/gs_to_yaml.py "MsYk4V0AAAAJ"   # 👈 replace with Negar’s Scholar user-id
+          python scripts/gs_to_yaml.py "R_1o4RIAAAAJ"   
 
       - name: Commit updated data
         run: |

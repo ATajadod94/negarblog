@@ -15,10 +15,10 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 def init_proxy():
     """Turn on Scholarly's free_proxy (rotates public proxies) and random UA."""
-    pg = ProxyGenerator()
-    if pg.FreeProxies():
-        scholarly.use_proxy(pg)
-        logging.info("Using free proxy pool.")
+    # pg = ProxyGenerator()
+    # if pg.FreeProxies():
+    #     scholarly.use_proxy(pg)
+    #     logging.info("Using free proxy pool.")
     try:
         ua = UserAgent().random
         scholarly.set_timeout(10)
