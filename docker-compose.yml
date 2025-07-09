@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  jekyll:
+    image: jekyll/jekyll:4           # Ruby + Jekyll pre-installed
+    command: >-
+      jekyll serve --future --drafts --livereload
+      --force_polling --host 0.0.0.0
+    ports:
+      - "4000:4000"   # site
+      - "35729:35729" # LiveReload websocket
+    volumes:
+      - .:/srv/jekyll
+      - bundle:/usr/local/bundle     # cache gems between runs
+    environment:
+      - JEKYLL_ENV=development
+
+volumes:
+  bundle:
