@@ -1,0 +1,60 @@
+---
+---
+
+@import "minimal-mistakes"; // Import the theme's core styles
+@import "minimal-mistakes/skins/aqua"; // Or your chosen skin, e.g. "default", "air", etc.
+
+// Your custom CSS below
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  
+  .chat-bubble {
+    background: #222;
+    color: #fff;
+    border-radius: 1.5em;
+    padding: 1em 1.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    min-width: 60px;
+    min-height: 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    animation: typing 1.2s infinite;
+  }
+  
+  .dot:nth-child(2) { animation-delay: 0.2s; }
+  .dot:nth-child(3) { animation-delay: 0.4s; }
+  
+  @keyframes typing {
+    0% { opacity: 0.2; transform: translateY(0); }
+    20% { opacity: 1; transform: translateY(-5px);}
+    100% { opacity: 0.2; transform: translateY(0);}
+  }
+  
+  .chat-label {
+    font-size: 0.9em;
+    color: #888;
+    margin-left: 0.5em;
+  }
+
+.chatbot-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+  
