@@ -1,6 +1,6 @@
 main:
   - title: "Papers"
-    url: /posts/
+    url: /papers/
   - title: "Conference"
     url: /conference/
   - title: "Categories"
