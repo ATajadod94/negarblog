@@ -1,7 +1,8 @@
+@import "minimal-mistakes"; // Import the theme's core styles
+@import "minimal-mistakes/skins/plum"; // Or your chosen skin, e.g. "default", "air", etc.
+
 ---
 ---
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
 // Your custom CSS below
 .chatbot-container {
     display: flex;
