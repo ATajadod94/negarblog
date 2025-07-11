@@ -23,7 +23,7 @@ repository: "ATajadod94/negarblog"
 baseurl: "/negarblog"      
 twitter_username: NegarEmpr
 github_username: Narabzad
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: plum
 search: true
 
 # Build settings
