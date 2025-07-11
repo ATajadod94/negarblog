@@ -9,13 +9,13 @@ from scholarly import scholarly, ProxyGenerator
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 def init_gateway():
-    pg = ProxyGenerator()
+    # SerpApiGateway is deprecated/removed in recent scholarly versions
+    # Just set timeout and optionally log about SerpAPI_KEY
     api_key = os.getenv("SERPAPI_KEY")
-    if api_key and pg.SerpApiGateway(api_key):
-        scholarly.use_proxy(pg)
-        logging.info("Using SerpAPI gateway.")
+    if api_key:
+        logging.info("SERPAPI_KEY is set, but SerpApiGateway is not supported in this scholarly version.")
     else:
-        logging.warning("SERPAPI_KEY missing or invalid – fetching directly (may be blocked).")
+        logging.warning("SERPAPI_KEY missing – fetching directly (may be blocked).")
     scholarly.set_timeout(10)
 
 def fetch_pubs(user_id: str, max_pubs: int = 100):
