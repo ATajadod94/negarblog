@@ -1,19 +1,21 @@
-version: "3.9"
+# docker-compose.yml  – hot-reloading Jekyll dev stack
+# (No "version:" key – Compose V2 ignores it, so we omit the warning.)
 
 services:
   jekyll:
-    image: jekyll/jekyll:4           # Ruby + Jekyll pre-installed
-    command: >-
-      jekyll serve --future --drafts --livereload
-      --force_polling --host 0.0.0.0
+    image: jekyll/jekyll:4            # Ruby 3.x + Jekyll 4.x pre-installed
+    command: |
+      jekyll serve --future --drafts --livereload \
+                   --force_polling --host 0.0.0.0
     ports:
-      - "4000:4000"   # site
-      - "35729:35729" # LiveReload websocket
+      - "4000:4000"    # Site
+      - "35729:35729"  # LiveReload websocket
     volumes:
-      - .:/srv/jekyll
-      - bundle:/usr/local/bundle     # cache gems between runs
+      - .:/srv/jekyll              # Mount your working tree
+      - bundle:/usr/local/bundle   # Persist installed gems
     environment:
-      - JEKYLL_ENV=development
+      JEKYLL_ENV: development
+      LISTEN_POLLING: "true"       # Ensures file-watching works on Windows
 
 volumes:
   bundle:
