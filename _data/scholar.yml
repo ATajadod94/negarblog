@@ -1,4 +1,4 @@
-updated: '2025-07-28'
+updated: '2025-08-04'
 papers:
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -9,7 +9,7 @@ papers:
     prediction'
   year: '2021'
   venue: Proceedings of the 30th ACM International Conference on Information …, 2021
-  citations: 57
+  citations: 58
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C
 - title: Retrieving supporting evidence for generative question answering
   year: '2023'
@@ -21,13 +21,13 @@ papers:
     strategy selection
   year: '2021'
   venue: Proceedings of the 30th ACM International Conference on Information …, 2021
-  citations: 50
+  citations: 51
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC
 - title: 'Query performance prediction: From ad-hoc to conversational search'
   year: '2023'
   venue: Proceedings of the 46th International ACM SIGIR Conference on Research and
     …, 2023
-  citations: 40
+  citations: 41
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:7PzlFSSx8tAC
 - title: Neural embedding-based specificity metrics for pre-retrieval query performance
     prediction
@@ -60,7 +60,7 @@ papers:
   year: '2024'
   venue: Proceedings of the 47th international ACM SIGIR conference on research and
     …, 2024
-  citations: 26
+  citations: 27
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
 - title: Unsupervised question clarity prediction through retrieved item coherency
   year: '2022'
