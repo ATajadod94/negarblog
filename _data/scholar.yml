@@ -1,4 +1,4 @@
-updated: '2025-08-04'
+updated: '2025-08-11'
 papers:
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -44,7 +44,7 @@ papers:
 - title: Retrieving supporting evidence for llms generated answers
   year: '2023'
   venue: arXiv preprint arXiv:2306.13781, 2023
-  citations: 29
+  citations: 30
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:qUcmZB5y_30C
 - title: Neural embedding-based metrics for pre-retrieval query performance prediction
   year: '2020'
@@ -77,7 +77,7 @@ papers:
   year: '2021'
   venue: Proceedings of the 44th International ACM SIGIR Conference on Research and
     …, 2021
-  citations: 23
+  citations: 24
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:eQOLeE2rZwMC
 - title: 'Iglu 2022: Interactive grounded language understanding in a collaborative
     environment at neurips 2022'
@@ -102,13 +102,13 @@ papers:
   venue: null
   citations: 21
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC
-- title: A comparison of methods for evaluating generative ir
-  year: '2024'
-  venue: arXiv preprint arXiv:2404.04044, 2024
+- title: Query Performance Prediction Through Retrieval Coherency.
+  year: '2021'
+  venue: ECIR (2), 193-200, 2021
+  citations: 21
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:WF5omc3nYNoC
+- title: Benchmarking prompt sensitivity in large language models
+  year: '2025'
+  venue: European Conference on Information Retrieval, 303-313, 2025
   citations: 20
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:BqipwSGYUEgC
-- title: 'Query performance prediction: From fundamentals to advanced techniques'
-  year: '2024'
-  venue: European Conference on Information Retrieval, 381-388, 2024
-  citations: 20
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:NMxIlDl6LWMC
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
