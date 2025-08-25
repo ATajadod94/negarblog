@@ -1,4 +1,4 @@
-updated: '2025-08-18'
+updated: '2025-08-25'
 papers:
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -60,7 +60,7 @@ papers:
   year: '2024'
   venue: Proceedings of the 47th international ACM SIGIR conference on research and
     …, 2024
-  citations: 27
+  citations: 28
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
 - title: Unsupervised question clarity prediction through retrieved item coherency
   year: '2022'
@@ -79,6 +79,12 @@ papers:
     …, 2021
   citations: 24
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:eQOLeE2rZwMC
+- title: Noisy perturbations for estimating query difficulty in dense retrievers
+  year: '2023'
+  venue: Proceedings of the 32nd ACM International Conference on Information and …,
+    2023
+  citations: 22
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:e5wmG9Sq2KIC
 - title: 'Iglu 2022: Interactive grounded language understanding in a collaborative
     environment at neurips 2022'
   year: '2022'
@@ -90,12 +96,6 @@ papers:
   venue: European Conference on Information Retrieval, 216-224, 2021
   citations: 22
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:ufrVoPGSRksC
-- title: Noisy perturbations for estimating query difficulty in dense retrievers
-  year: '2023'
-  venue: Proceedings of the 32nd ACM International Conference on Information and …,
-    2023
-  citations: 21
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:e5wmG9Sq2KIC
 - title: 'Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised
     Query Reformulation'
   year: '2021'
