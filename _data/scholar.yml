@@ -1,4 +1,4 @@
-updated: '2025-08-25'
+updated: '2025-09-01'
 papers:
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -15,13 +15,13 @@ papers:
   year: '2023'
   venue: Proceedings of the annual international acm sigir conference on research
     and …, 2023
-  citations: 53
+  citations: 54
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC
 - title: Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval
     strategy selection
   year: '2021'
   venue: Proceedings of the 30th ACM International Conference on Information …, 2021
-  citations: 51
+  citations: 52
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC
 - title: 'Query performance prediction: From ad-hoc to conversational search'
   year: '2023'
@@ -39,7 +39,7 @@ papers:
     prediction
   year: '2020'
   venue: Information Processing & Management 57 (4), 102248, 2020
-  citations: 38
+  citations: 39
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC
 - title: Retrieving supporting evidence for llms generated answers
   year: '2023'
@@ -79,6 +79,11 @@ papers:
     …, 2021
   citations: 24
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:eQOLeE2rZwMC
+- title: Benchmarking prompt sensitivity in large language models
+  year: '2025'
+  venue: European Conference on Information Retrieval, 303-313, 2025
+  citations: 22
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
 - title: Noisy perturbations for estimating query difficulty in dense retrievers
   year: '2023'
   venue: Proceedings of the 32nd ACM International Conference on Information and …,
@@ -107,8 +112,3 @@ papers:
   venue: ECIR (2), 193-200, 2021
   citations: 21
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:WF5omc3nYNoC
-- title: Benchmarking prompt sensitivity in large language models
-  year: '2025'
-  venue: European Conference on Information Retrieval, 303-313, 2025
-  citations: 20
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
