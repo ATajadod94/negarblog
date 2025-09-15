@@ -1,9 +1,9 @@
-updated: '2025-09-08'
+updated: '2025-09-15'
 papers:
 - title: Shallow pooling for sparse labels
   year: '2022'
   venue: Information Retrieval Journal 25 (4), 365-385, 2022
-  citations: 65
+  citations: 66
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:LkGwnXOMwfcC
 - title: 'BERT-QPP: contextualized pre-trained transformers for query performance
     prediction'
@@ -21,7 +21,7 @@ papers:
     strategy selection
   year: '2021'
   venue: Proceedings of the 30th ACM International Conference on Information …, 2021
-  citations: 52
+  citations: 54
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC
 - title: 'Query performance prediction: From ad-hoc to conversational search'
   year: '2023'
@@ -101,14 +101,14 @@ papers:
   venue: European Conference on Information Retrieval, 216-224, 2021
   citations: 22
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:ufrVoPGSRksC
+- title: 'Query performance prediction: From fundamentals to advanced techniques'
+  year: '2024'
+  venue: European Conference on Information Retrieval, 381-388, 2024
+  citations: 21
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:NMxIlDl6LWMC
 - title: 'Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised
     Query Reformulation'
   year: '2021'
   venue: null
   citations: 21
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC
-- title: Query Performance Prediction Through Retrieval Coherency.
-  year: '2021'
-  venue: ECIR (2), 193-200, 2021
-  citations: 21
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:WF5omc3nYNoC
