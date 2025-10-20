@@ -1,4 +1,4 @@
-updated: '2025-10-13'
+updated: '2025-10-20'
 papers:
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -9,7 +9,7 @@ papers:
   year: '2023'
   venue: Proceedings of the annual international acm sigir conference on research
     and …, 2023
-  citations: 60
+  citations: 61
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC
 - title: 'BERT-QPP: contextualized pre-trained transformers for query performance
     prediction'
@@ -46,11 +46,6 @@ papers:
   venue: arXiv preprint arXiv:2306.13781, 2023
   citations: 33
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:qUcmZB5y_30C
-- title: Benchmarking prompt sensitivity in large language models
-  year: '2025'
-  venue: European Conference on Information Retrieval, 303-313, 2025
-  citations: 32
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
 - title: Generative information retrieval evaluation
   year: '2024'
   venue: Information access in the era of generative ai, 135-159, 2024
@@ -62,6 +57,11 @@ papers:
     …, 2024
   citations: 31
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
+- title: Benchmarking prompt sensitivity in large language models
+  year: '2025'
+  venue: European Conference on Information Retrieval, 303-313, 2025
+  citations: 30
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
 - title: Neural embedding-based metrics for pre-retrieval query performance prediction
   year: '2020'
   venue: European Conference on Information Retrieval, 78-85, 2020
@@ -76,20 +76,20 @@ papers:
     obstinate queries'
   year: '2021'
   venue: proceedings of the 30th ACM international conference on information …, 2021
-  citations: 26
+  citations: 27
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:roLk4NBRz8UC
+- title: Noisy perturbations for estimating query difficulty in dense retrievers
+  year: '2023'
+  venue: Proceedings of the 32nd ACM International Conference on Information and …,
+    2023
+  citations: 24
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:e5wmG9Sq2KIC
 - title: On the orthogonality of bias and utility in ad hoc retrieval
   year: '2021'
   venue: Proceedings of the 44th International ACM SIGIR Conference on Research and
     …, 2021
   citations: 24
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:eQOLeE2rZwMC
-- title: Noisy perturbations for estimating query difficulty in dense retrievers
-  year: '2023'
-  venue: Proceedings of the 32nd ACM International Conference on Information and …,
-    2023
-  citations: 23
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:e5wmG9Sq2KIC
 - title: Exploring gender biases in information retrieval relevance judgement datasets
   year: '2021'
   venue: European Conference on Information Retrieval, 216-224, 2021
