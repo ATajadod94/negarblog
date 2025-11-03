@@ -1,4 +1,4 @@
-updated: '2025-10-27'
+updated: '2025-11-03'
 papers:
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -9,7 +9,7 @@ papers:
   year: '2023'
   venue: Proceedings of the annual international acm sigir conference on research
     and …, 2023
-  citations: 61
+  citations: 62
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC
 - title: 'BERT-QPP: contextualized pre-trained transformers for query performance
     prediction'
@@ -33,7 +33,7 @@ papers:
     language models
   year: '2025'
   venue: ACM Transactions on Information Systems 43 (4), 1-35, 2025
-  citations: 43
+  citations: 44
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:YFjsv_pBGBYC
 - title: Neural embedding-based specificity metrics for pre-retrieval query performance
     prediction
