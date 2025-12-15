@@ -1,4 +1,4 @@
-updated: '2025-12-08'
+updated: '2025-12-15'
 papers:
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -15,7 +15,7 @@ papers:
     prediction'
   year: '2021'
   venue: Proceedings of the 30th ACM International Conference on Information …, 2021
-  citations: 63
+  citations: 64
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C
 - title: Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval
     strategy selection
@@ -27,29 +27,29 @@ papers:
     language models
   year: '2025'
   venue: ACM Transactions on Information Systems 43 (4), 1-35, 2025
-  citations: 49
+  citations: 51
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:YFjsv_pBGBYC
+- title: 'Query performance prediction: From ad-hoc to conversational search'
+  year: '2023'
+  venue: Proceedings of the 46th International ACM SIGIR Conference on Research and
+    …, 2023
+  citations: 47
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:7PzlFSSx8tAC
 - title: Benchmarking prompt sensitivity in large language models
   year: '2025'
   venue: European Conference on Information Retrieval, 303-313, 2025
   citations: 46
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
-- title: 'Query performance prediction: From ad-hoc to conversational search'
-  year: '2023'
-  venue: Proceedings of the 46th International ACM SIGIR Conference on Research and
-    …, 2023
-  citations: 46
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:7PzlFSSx8tAC
 - title: Neural embedding-based specificity metrics for pre-retrieval query performance
     prediction
   year: '2020'
   venue: Information Processing & Management 57 (4), 102248, 2020
-  citations: 43
+  citations: 44
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC
 - title: Generative information retrieval evaluation
   year: '2024'
   venue: Information access in the era of generative ai, 135-159, 2024
-  citations: 35
+  citations: 36
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC
 - title: Retrieving supporting evidence for llms generated answers
   year: '2023'
@@ -60,7 +60,7 @@ papers:
   year: '2024'
   venue: Proceedings of the 47th international ACM SIGIR conference on research and
     …, 2024
-  citations: 33
+  citations: 34
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
 - title: Neural embedding-based metrics for pre-retrieval query performance prediction
   year: '2020'
@@ -70,19 +70,19 @@ papers:
 - title: Unsupervised question clarity prediction through retrieved item coherency
   year: '2022'
   venue: Proceedings of the 31st ACM International Conference on Information …, 2022
-  citations: 28
+  citations: 29
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:YOwf2qJgpHMC
 - title: 'Ms marco chameleons: challenging the ms marco leaderboard with extremely
     obstinate queries'
   year: '2021'
   venue: proceedings of the 30th ACM international conference on information …, 2021
-  citations: 27
+  citations: 28
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:roLk4NBRz8UC
 - title: Noisy perturbations for estimating query difficulty in dense retrievers
   year: '2023'
   venue: Proceedings of the 32nd ACM International Conference on Information and …,
     2023
-  citations: 26
+  citations: 27
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:e5wmG9Sq2KIC
 - title: On the orthogonality of bias and utility in ad hoc retrieval
   year: '2021'
@@ -101,14 +101,14 @@ papers:
   venue: arXiv preprint arXiv:2205.13771, 2022
   citations: 23
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:kNdYIx-mwKoC
+- title: 'Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised
+    Query Reformulation'
+  year: '2021'
+  venue: null
+  citations: 23
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC
 - title: A comparison of methods for evaluating generative ir
   year: '2024'
   venue: arXiv preprint arXiv:2404.04044, 2024
   citations: 22
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:BqipwSGYUEgC
-- title: 'Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised
-    Query Reformulation'
-  year: '2021'
-  venue: null
-  citations: 22
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC
