@@ -1,16 +1,16 @@
-updated: '2025-12-29'
+updated: '2026-01-05'
 papers:
+- title: Retrieving supporting evidence for generative question answering
+  year: '2023'
+  venue: Proceedings of the annual international acm sigir conference on research
+    and …, 2023
+  citations: 68
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC
 - title: Shallow pooling for sparse labels
   year: '2022'
   venue: Information Retrieval Journal 25 (4), 365-385, 2022
   citations: 68
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:LkGwnXOMwfcC
-- title: Retrieving supporting evidence for generative question answering
-  year: '2023'
-  venue: Proceedings of the annual international acm sigir conference on research
-    and …, 2023
-  citations: 67
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC
 - title: 'BERT-QPP: contextualized pre-trained transformers for query performance
     prediction'
   year: '2021'
@@ -51,17 +51,17 @@ papers:
   venue: Information access in the era of generative ai, 135-159, 2024
   citations: 39
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC
+- title: Ranked list truncation for large language model-based re-ranking
+  year: '2024'
+  venue: Proceedings of the 47th international ACM SIGIR conference on research and
+    …, 2024
+  citations: 35
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
 - title: Retrieving supporting evidence for llms generated answers
   year: '2023'
   venue: arXiv preprint arXiv:2306.13781, 2023
   citations: 35
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:qUcmZB5y_30C
-- title: Ranked list truncation for large language model-based re-ranking
-  year: '2024'
-  venue: Proceedings of the 47th international ACM SIGIR conference on research and
-    …, 2024
-  citations: 34
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
 - title: Neural embedding-based metrics for pre-retrieval query performance prediction
   year: '2020'
   venue: European Conference on Information Retrieval, 78-85, 2020
@@ -76,7 +76,7 @@ papers:
     obstinate queries'
   year: '2021'
   venue: proceedings of the 30th ACM international conference on information …, 2021
-  citations: 28
+  citations: 29
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:roLk4NBRz8UC
 - title: Noisy perturbations for estimating query difficulty in dense retrievers
   year: '2023'
