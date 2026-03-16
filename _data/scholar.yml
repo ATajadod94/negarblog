@@ -1,4 +1,4 @@
-updated: '2026-03-09'
+updated: '2026-03-16'
 papers:
 - title: Retrieving supporting evidence for generative question answering
   year: '2023'
@@ -6,6 +6,11 @@ papers:
     and …, 2023
   citations: 76
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC
+- title: Benchmarking prompt sensitivity in large language models
+  year: '2025'
+  venue: European Conference on Information Retrieval, 303-313, 2025
+  citations: 72
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
 - title: 'BERT-QPP: contextualized pre-trained transformers for query performance
     prediction'
   year: '2021'
@@ -18,11 +23,6 @@ papers:
   venue: Proceedings of the 30th ACM International Conference on Information …, 2021
   citations: 70
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC
-- title: Benchmarking prompt sensitivity in large language models
-  year: '2025'
-  venue: European Conference on Information Retrieval, 303-313, 2025
-  citations: 69
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
 - title: Shallow pooling for sparse labels
   year: '2022'
   venue: Information Retrieval Journal 25 (4), 365-385, 2022
@@ -55,7 +55,7 @@ papers:
   year: '2024'
   venue: Proceedings of the 47th international ACM SIGIR conference on research and
     …, 2024
-  citations: 39
+  citations: 40
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
 - title: Retrieving supporting evidence for llms generated answers
   year: '2023'
@@ -79,17 +79,17 @@ papers:
   venue: European Conference on Information Retrieval, 78-85, 2020
   citations: 30
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:IjCSPb-OGe4C
+- title: Benchmarking LLM-based relevance judgment methods
+  year: '2025'
+  venue: Proceedings of the 48th International ACM SIGIR Conference on Research and
+    …, 2025
+  citations: 29
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC
 - title: Unsupervised question clarity prediction through retrieved item coherency
   year: '2022'
   venue: Proceedings of the 31st ACM International Conference on Information …, 2022
   citations: 29
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:YOwf2qJgpHMC
-- title: Benchmarking LLM-based relevance judgment methods
-  year: '2025'
-  venue: Proceedings of the 48th International ACM SIGIR Conference on Research and
-    …, 2025
-  citations: 28
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC
 - title: A comparison of methods for evaluating generative ir
   year: '2024'
   venue: arXiv preprint arXiv:2404.04044, 2024
