@@ -1,9 +1,9 @@
-updated: '2026-08-10'
+updated: '2026-08-17'
 papers:
 - title: Benchmarking prompt sensitivity in large language models
   year: '2025'
   venue: European conference on information retrieval, 303-313, 2025
-  citations: 123
+  citations: 127
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
 - title: 'BERT-QPP: contextualized pre-trained transformers for query performance
     prediction'
@@ -21,12 +21,12 @@ papers:
     strategy selection
   year: '2021'
   venue: CIKM 2021, 2862-2866, 2021
-  citations: 86
+  citations: 87
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC
 - title: Retrieving supporting evidence for generative question answering
   year: '2023'
   venue: SIGIR AP 2023, 11-20, 2023
-  citations: 83
+  citations: 84
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -36,7 +36,7 @@ papers:
 - title: Measuring agents in production
   year: '2025'
   venue: ICML 2026, 2025
-  citations: 67
+  citations: 72
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC
 - title: 'Query performance prediction: From ad-hoc to conversational search'
   year: '2023'
@@ -48,21 +48,21 @@ papers:
   venue: Information access in the era of generative ai, 135-159, 2024
   citations: 57
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC
+- title: Ranked list truncation for large language model-based re-ranking
+  year: '2024'
+  venue: SIGIR 2024, 141-151, 2024
+  citations: 54
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
 - title: Neural embedding-based specificity metrics for pre-retrieval query performance
     prediction
   year: '2020'
   venue: Information Processing & Management 57 (4), 102248, 2020
   citations: 54
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC
-- title: Ranked list truncation for large language model-based re-ranking
-  year: '2024'
-  venue: SIGIR 2024, 141-151, 2024
-  citations: 53
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC
 - title: Benchmarking LLM-based relevance judgment methods
   year: '2025'
   venue: SIGIR 2025, 3194-3204, 2025
-  citations: 46
+  citations: 47
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC
 - title: A human-ai comparative analysis of prompt sensitivity in llm-based relevance
     judgment
@@ -84,7 +84,7 @@ papers:
     research synthesis'
   year: '2025'
   venue: COLM 2026, 2025
-  citations: 34
+  citations: 36
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC
 - title: Neural embedding-based metrics for pre-retrieval query performance prediction
   year: '2020'
@@ -102,8 +102,8 @@ papers:
   venue: proceedings of the 30th ACM international conference on information …, 2021
   citations: 33
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:roLk4NBRz8UC
-- title: A comparison of methods for evaluating generative ir
-  year: '2024'
-  venue: arXiv preprint arXiv:2404.04044, 2024
-  citations: 32
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:BqipwSGYUEgC
+- title: Exploring gender biases in information retrieval relevance judgement datasets
+  year: '2021'
+  venue: European Conference on Information Retrieval, 216-224, 2021
+  citations: 33
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:ufrVoPGSRksC
