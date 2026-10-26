@@ -1,9 +1,9 @@
-updated: '2026-10-19'
+updated: '2026-10-26'
 papers:
 - title: Benchmarking prompt sensitivity in large language models
   year: '2025'
   venue: European conference on information retrieval, 303-313, 2025
-  citations: 147
+  citations: 146
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC
 - title: 'BERT-QPP: contextualized pre-trained transformers for query performance
     prediction'
@@ -31,7 +31,7 @@ papers:
 - title: Retrieving supporting evidence for generative question answering
   year: '2023'
   venue: SIGIR AP 2023, 11-20, 2023
-  citations: 87
+  citations: 88
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC
 - title: Shallow pooling for sparse labels
   year: '2022'
@@ -46,7 +46,7 @@ papers:
 - title: Generative information retrieval evaluation
   year: '2024'
   venue: Information access in the era of generative ai, 135-159, 2024
-  citations: 60
+  citations: 61
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC
 - title: Ranked list truncation for large language model-based re-ranking
   year: '2024'
@@ -63,7 +63,7 @@ papers:
     judgment
   year: '2025'
   venue: SIGIR 2025, 2784-2788, 2025
-  citations: 51
+  citations: 52
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC
 - title: Benchmarking LLM-based relevance judgment methods
   year: '2025'
@@ -79,7 +79,7 @@ papers:
     research synthesis'
   year: '2025'
   venue: COLM 2026, 2025
-  citations: 38
+  citations: 40
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC
 - title: Noisy perturbations for estimating query difficulty in dense retrievers
   year: '2023'
